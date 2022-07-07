@@ -1,0 +1,65 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav_links {
+    width: 325px;
+    height: 50px;
+    display: inline;
+}
+
+#aboutus {
+    margin-top: -40px;
+    margin-left: 115px;
+}
+
+.bluebox {
+    background-color: #0d63ff;
+    text-align: center;
+    height: 425px;
+    margin-top: -70px;
+}
+
+.aboutheader {
+    margin-top: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+    
+}
+
+.aboutp {
+    display: inline-block;
+    color: white;
+    font-weight: 25pt;
+    width: 400px;
+    letter-spacing: .3mm;
+}
+
+
+
+.container div{
+    border: solid;
+    height: 300px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: -10px;
+}
+
+#boxybox {
+    position: relative;
+    font-size: x-large;
+    margin: 5px 0;
+    float: left;
+}
+
+.history {
+    width: 750px;
+    font-weight: 200;
+    font-size: large;
+    float: right;
+    margin-top: 3px;
+}
+
+
