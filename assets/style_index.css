@@ -4,13 +4,16 @@
 body{
     background-color:rgb(248, 244, 238);
     font-family: 'Poppins', sans-serif;
-
+    width: 100vw;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
  
 
 .container-fluid.mission{
     text-align: center;
-    /* background-image: url(https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=1440&name=new%20website%20hero%20background%20image%20%281%29.png);*/
     background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.5) ), url('https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=1440&name=new%20website%20hero%20background%20image%20%281%29.png');
     color: white;
     display: block;
@@ -97,6 +100,8 @@ body{
 .col-md-6.text p{
     width: 60%; 
     color: #96a2b4;
+    padding-right: 20%;
+
 }
 
 #sym-man{
@@ -120,6 +125,7 @@ body{
     text-align: right;
     line-height: 1.8rem;
     color: #96a2b4;
+    padding-left: 30%;
 
 }
 #headphone-man {
@@ -140,15 +146,115 @@ body{
     text-align: center;
     background-image: url(https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/Brand2Files/Untitled%20design%20%2829%29.png?width=1440&name=Untitled%20design%20%2829%29.png); 
     color: white;
-
-    /* Full height */
     height: 100%; 
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
+}
+
+.tts-vid {
+    height: 60%;
+    width: 60%;
+    margin-right: 7.5%;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+
+/* Start of Featured Testimonial */
+
+#testimonial{
+    margin-bottom: 100px;
+}
+.featured .card-body {
+    display: block;
+    position: relative;
+    justify-content: center;
+    bottom: 20px;
+    left: 20px;
+}
+
+/* .featured .card{ Seems to break everything gonna have to solve this / leave it be
+    width: 400px;
+} */
+
+.featured .card-text {
+    width: 300px;
+} 
+
+#ceo {
+    position: relative;
+    border: 2px solid blue;
+    width: 30%;
+    border-radius: 50%;
+    left:40px;
+    bottom: 50px;
+}
+
+.featured .card-text {
+    color: #96a2b4;
+    bottom: 20px; 
+}
+.featured .card-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.featured .card-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7rem;
+    width: auto;
+}
+
+
+/* Start of About Section */
+
+.about h5{
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.about h2{
+    margin-left: 10%;
+    margin-top: 30px;
+    font-weight: 650;
+    margin-bottom: 20px;
+}
+
+.about p{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    color: #96a2b4;
+}
+
+/* Start of Banner Section */
+
+.banner {
+    color: white;
+    margin-top: 110px;
+    border: 20px 20px;
+}
+
+.banner h5{
+    font-weight: 600;
+    margin: 10% auto 0 10%;
+}
+
+.banner p{
+    margin-left: 10%;
+    margin: 0 auto 10% 10%;
+}
+
+.banner a{
+    border: 2px solid white;
+    vertical-align: middle;
+    margin-top: 6%;
+    float: right;
+    margin-right: 10%;
 }
 
 /* Links to Assets: 
