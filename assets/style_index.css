@@ -11,7 +11,9 @@ body{
     overflow-x: hidden; 
 }
  
-
+.navbar {
+    z-index: 10;
+}
 .container-fluid.mission{
     text-align: center;
     background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.5) ), url('https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=1440&name=new%20website%20hero%20background%20image%20%281%29.png');
@@ -26,7 +28,6 @@ body{
     display: flex;
     align-items: center;
     height: 100vh;
-    z-index: -1;
 }
 
 .mission .row{
@@ -54,6 +55,7 @@ body{
     font-weight: 300;
     font-size: 18px;
 }
+
 
 /* Start of Slogan Section */
 
