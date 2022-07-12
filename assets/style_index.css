@@ -1,0 +1,367 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap'); 
+
+body{
+    background-color:#FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+ 
+
+.container-fluid.mission{
+    text-align: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.5) ), url('https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=1440&name=new%20website%20hero%20background%20image%20%281%29.png');
+    color: white;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    z-index: -1;
+}
+
+.mission .row{
+    justify-content: center;
+}
+
+.container-fluid.mission h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid.mission p {
+    display: inline-block;
+    width: 65%;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container-fluid.mission .btn{
+    margin-top: 40px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* Start of Slogan Section */
+
+.slogan h2{
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.slogan h3 {
+    margin-top: 20px;
+    color: #96a2b4;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+/* Start of Features Section */
+.features {
+    margin-top: 140px;
+    text-align: center;
+    justify-content: center;
+}
+
+.features h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.features p{
+    width:fit-content;
+    color: #96a2b4;
+}
+
+/* Start of Image + Side Paragraph Section */
+
+
+.side-image-par .row{
+    margin-top: 140px;
+    justify-content: center;
+}
+.col-md-6.text{
+    width: 50%; 
+}
+
+.col-md-6.text p{
+    width: 60%; 
+    color: #96a2b4;
+    padding-right: 20%;
+
+}
+
+#sym-man{
+    height: 300px;
+    margin-top: -25px;
+    margin-right: 5%;
+    float: right; 
+} 
+.side-image-par .row.flip-flop{ 
+    margin-top: 0;
+    justify-content: center;
+}
+
+.row.flip-flop .text{
+    text-align: right;
+    line-height: 1.8rem;
+    
+}
+
+.row.flip-flop .text p{
+    text-align: right;
+    line-height: 1.8rem;
+    color: #96a2b4;
+    padding-left: 30%;
+
+}
+#headphone-man {
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 25px; 
+}
+
+.side-image-par .btn{
+    margin-bottom: 30px;
+}
+.side-image-par img{
+    margin-bottom: 30px;
+}
+
+/* Embed Video W/ Background */
+.container-fluid.background-art{
+    text-align: center;
+    background-image: url(https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/Brand2Files/Untitled%20design%20%2829%29.png?width=1440&name=Untitled%20design%20%2829%29.png); 
+    color: white;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.tts-vid {
+    height: 60%;
+    width: 60%;
+    margin-right: 7.5%;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+
+/* Start of Featured Testimonial */
+
+#testimonial{
+    margin-bottom: 100px;
+}
+.featured .card-body {
+    display: block;
+    position: relative;
+    justify-content: center;
+    bottom: 20px;
+}
+
+/* .featured .card{ Seems to break everything gonna have to solve this / leave it be
+    width: 400px;
+} */
+
+.featured .card-text {
+    width: 100%;
+    
+} 
+
+#ceo {
+    position: relative;
+    border: 2px solid blue;
+    width: 30%;
+    border-radius: 50%;
+    left:40px;
+    bottom: 50px;
+}
+
+.featured .card-text {
+    color: #96a2b4;
+    bottom: 20px; 
+}
+.featured .card-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.featured .card-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7rem;
+    width: auto;
+}
+
+
+/* Start of About Section */
+
+.about h5{
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.about h2{
+    margin-left: 10%;
+    margin-top: 30px;
+    font-weight: 650;
+    margin-bottom: 20px;
+}
+
+.about p{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    color: #96a2b4;
+}
+
+/* Start of Banner Section */
+
+.banner {
+    color: white;
+    margin-top: 110px;
+    border: 20px 20px;
+}
+
+.banner h5{
+    font-weight: 600;
+    margin: 10% auto 0 10%;
+}
+
+.banner p{
+    margin-left: 10%;
+    margin: 0 auto 10% 10%;
+}
+
+.banner a{
+    border: 2px solid white;
+    vertical-align: middle;
+    margin-top: 6%;
+    float: right;
+    margin-right: 10%;
+}
+
+/* Start of Footer Section */
+
+
+footer.footer-container{
+    height:320px;
+    width:100%;
+    background-color: rgb(248, 248, 248);
+
+}
+
+footer .corner-logos{
+    height:20px;
+    width:20px;
+    opacity: 0.7;
+}
+
+footer .logo{
+    height:60px;
+    margin:5%;
+}
+
+footer.inside-container{
+    margin-left:6%;
+    margin-right:10%;
+    padding:2px;
+}
+
+footer .col-descrip p{
+    color:gray;
+}
+
+footer .col-md-2 h6{
+    font-weight: bold;;
+}
+
+footer .col-md-2 p{
+    color:gray;
+}
+
+footer .col-md-2{
+    padding:3%;
+}
+
+footer .foot-note li{
+    color:gray;
+    font-size: 9pt;
+}
+
+footer .video{
+    width: 100%;
+}
+
+footer .overlay h1{
+    font-weight: 800;
+}
+
+footer .foot-note{
+	width:100%;
+	text-align: center;
+	padding:3px;
+	bottom:0px;
+}
+
+footer  .logo{
+    height:60px;
+    margin:5%;
+}
+
+
+
+footer ul li {
+    display:inline;
+    list-style:none;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: blue;
+    font-size: 9pt;
+}
+
+
+/* Links to Assets: 
+
+Background People Working:
+https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=1440&name=new%20website%20hero%20background%20image%20%281%29.png
+
+Artistic Boxes:
+https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/Brand2Files/Untitled%20design%20%2829%29.png?width=1440&name=Untitled%20design%20%2829%29.png
+
+CEO Guy:
+https://www.techtalentsouth.com/hubfs/jespey.jpeg
+
+Handshake Symmetrical Man:
+https://www.techtalentsouth.com/hs-fs/hubfs/shutterstock_1099307402.jpg?width=3680&height=2456&name=shutterstock_1099307402.jpg
+
+Smiling Headphone Guy:
+https://www.techtalentsouth.com/hs-fs/hubfs/shutterstock_1626375442.jpg?width=6622&height=4415&name=shutterstock_1626375442.jpg
+
+
+
+
+
+*/
