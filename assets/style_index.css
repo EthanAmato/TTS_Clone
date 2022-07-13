@@ -11,7 +11,9 @@ body{
     overflow-x: hidden; 
 }
  
-
+.navbar {
+    z-index: 10;
+}
 .container-fluid.mission{
     text-align: center;
     background: linear-gradient( rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.5) ), url('https://2577343.fs1.hubspotusercontent-na1.net/hub/2577343/hubfs/new%20website%20hero%20background%20image%20%281%29.png?width=1440&name=new%20website%20hero%20background%20image%20%281%29.png');
@@ -21,12 +23,15 @@ body{
     background-size: 100vw;
     background-size: cover;
     background-position: center;
-
+    width: 100%;
     position: relative;
     display: flex;
     align-items: center;
     height: 100vh;
-    z-index: -1;
+}
+
+.mission .row{
+    justify-content: center;
 }
 
 .container-fluid.mission h1{
@@ -50,6 +55,7 @@ body{
     font-weight: 300;
     font-size: 18px;
 }
+
 
 /* Start of Slogan Section */
 
@@ -256,6 +262,88 @@ body{
     float: right;
     margin-right: 10%;
 }
+
+/* Start of Footer Section */
+
+
+footer.footer-container{
+    height:320px;
+    width:100%;
+    background-color: rgb(248, 248, 248);
+
+}
+
+footer .corner-logos{
+    height:20px;
+    width:20px;
+    opacity: 0.7;
+}
+
+footer .logo{
+    height:60px;
+    margin:5%;
+}
+
+footer.inside-container{
+    margin-left:6%;
+    margin-right:10%;
+    padding:2px;
+}
+
+footer .col-descrip p{
+    color:gray;
+}
+
+footer .col-md-2 h6{
+    font-weight: bold;;
+}
+
+footer .col-md-2 p{
+    color:gray;
+}
+
+footer .col-md-2{
+    padding:3%;
+}
+
+footer .foot-note li{
+    color:gray;
+    font-size: 9pt;
+}
+
+footer .video{
+    width: 100%;
+}
+
+footer .overlay h1{
+    font-weight: 800;
+}
+
+footer .foot-note{
+	width:100%;
+	text-align: center;
+	padding:3px;
+	bottom:0px;
+}
+
+footer  .logo{
+    height:60px;
+    margin:5%;
+}
+
+
+
+footer ul li {
+    display:inline;
+    list-style:none;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: blue;
+    font-size: 9pt;
+}
+
 
 /* Links to Assets: 
 
