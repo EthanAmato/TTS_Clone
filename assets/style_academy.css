@@ -1,5 +1,5 @@
-*{
-    font: 11pt Poppins;
+* {
+    font-family: Poppins;
 }
 
 .foot-note{
@@ -31,7 +31,7 @@ footer ul li a {
 
 .video{
     height:auto;
-    width:auto;
+    width: 100%;
 }
 
 .overlay{
@@ -46,7 +46,7 @@ footer ul li a {
 .overlay h1{
     text-align:center;
 }
-overlay h3{
+.overlay h3{
     text-align:center;
 }
 
@@ -129,7 +129,7 @@ overlay h3{
 }
 
 .col-md-2 h6{
-    font-weight: bold;;
+    font-weight: bold;
 }
 
 .col-md-2 p{
@@ -143,10 +143,6 @@ overlay h3{
 .foot-note li{
     color:gray;
     font-size: 9pt;
-}
-
-.video{
-    width: 100%;
 }
 
 .overlay h1{
