@@ -51,7 +51,7 @@
 #boxybox {
     position: relative;
     font-size: x-large;
-    margin: 5px 0;
+    margin: 25px 0;
     float: left;
     
 }
@@ -61,13 +61,12 @@
     font-weight: 200px;
     font-size: large;
     float: right;
-    margin-top: 10px;
+    margin-top: 15px;
     height: 400px;
 }
 
 .history p{
     overflow-wrap: inherit;
-    overflow: ;
     margin-bottom: 10px;
     padding-bottom: 40px;
 }
@@ -98,3 +97,83 @@
     margin-top: -20px;
 }
 
+/* start of nikole footer */
+footer.footer-container{
+    height:320px;
+    width:100%;
+    background-color: rgb(248, 248, 248);
+    display: inline-block;
+    position: relative;
+
+}
+
+footer .corner-logos{
+    height:20px;
+    width:20px;
+    opacity: 0.7;
+}
+
+footer .logo{
+    height:60px;
+    margin:5%;
+}
+
+footer.inside-container{
+    margin-left:6%;
+    margin-right:10%;
+    padding:2px;
+}
+
+footer .col-descrip p{
+    color:gray;
+}
+
+footer .col-md-2 h6{
+    font-weight: bold;;
+}
+
+footer .col-md-2 p{
+    color:gray;
+}
+
+footer .col-md-2{
+    padding:3%;
+}
+
+footer .foot-note li{
+    color:gray;
+    font-size: 9pt;
+}
+
+footer .video{
+    width: 100%;
+}
+
+footer .overlay h1{
+    font-weight: 800;
+}
+
+footer .foot-note{
+	width:100%;
+	text-align: center;
+	padding:3px;
+	bottom:0px;
+}
+
+footer  .logo{
+    height:60px;
+    margin:5%;
+}
+
+
+
+footer ul li {
+    display:inline;
+    list-style:none;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: blue;
+    font-size: 9pt;
+}
